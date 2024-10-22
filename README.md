@@ -1,31 +1,23 @@
-# Design Patterns in Java
+# Payment Processing System with Strategy Pattern
 
-This repository includes implementations of several design patterns.
+This project implements a payment processing system for an e-commerce platform using the Strategy Pattern. It allows handling multiple payment methods such as credit card, PayPal, and cryptocurrency.
 
+## Features
 
-## Assignments
+- **Payment Strategy Interface**: Define a common interface for different payment methods.
+- **Concrete Strategies**: Implement various payment methods (e.g., `CreditCardPayment`, `PayPalPayment`, `CryptoPayment`).
+- **Dynamic Payment Processing**: Change payment methods at runtime in the `ShoppingCart` class.
+- **Flexibility**: Demonstrates processing payments using different strategies in the `Main` class.
 
-### 1. **Adapter Pattern - Audio Player**
-- Supports MP3, WAV, and AAC formats using an adapter.
+## Getting Started
 
-### 2. **Bridge Pattern - Remote Control**
-- Flexible remote control system for various devices.
+### Prerequisites
 
-### 3. **Composite Pattern - Menu System**
-- Represents a restaurant menu with sub-menus and items.
+- Java Development Kit (JDK) 8 or higher
+- Any IDE or text editor
 
-### 4. **Decorator Pattern - Pizza Ordering**
-- Adds toppings to pizzas using decorators.
+### How to Run
 
-### 5. **Facade Pattern - Smart Home**
-- Simplifies smart device control through a facade.
-
-### 6. **Flyweight Pattern - Text Editor**
-- Efficient character rendering in a text editor.
-
-### 7. **Proxy Pattern - Online Learning**
-- Lazy loading of video lectures in an online platform.
-
-## How to Run
-- Build the project using your preferred IDE or via `javac` and run each `App` class to see the pattern in action.
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KaminurOrynbek/DesignPatterns.git
